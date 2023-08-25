@@ -1,0 +1,2830 @@
+{
+  "description" : "",
+  "name" : "off apple telemetry",
+  "rules" : [
+    {
+      "action" : "deny",
+      "remote-domains" : "dlc.nike.com.edgekey.net.globalredir.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "www.apple.com.edgekey.net.globalredir.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is1.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is2.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is3.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is4.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "is5.mzstatic.com.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prd.col.aria.browser.skypedata.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prd.col.aria.mobile.skypedata.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "bn2-client-s.msnmessenger.msn.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "europe.configsvc1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "europe.odcsm1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p02-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p02-smtp.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p04-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p40-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p41-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-imap.mail.me.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod-w.nexus.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod.ocws1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod.odcsm1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod.ols.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod.omextemplates.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "prod.roaming1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "us.configsvc1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "us2.ocws1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "us2.odcsm1.live.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "static.gc.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ax.phobos.apple.com.edgesuite.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "init.ess.apple.com.edgesuite.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "init.gc.apple.com.edgesuite.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "play.itunes.apple.com.edgesuite.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "any-appleweather-cache.internal.query.a03.yahoodns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "appleweather-cache.internal.query.g03.yahoodns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1033.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1051.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1397.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1462.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1598.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a506.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a682.phobos.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "aod.itunes.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apptrailers.itunes.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "hls.itunes.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "iosapps.itunes.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "0.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "1.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "1.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "10.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "10.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "11.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "12.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "13.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "14.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "15.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "16.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "17.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "18.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "19.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "2.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "2.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "20.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "21.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "22.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "23.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "24.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "25.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "26.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "27.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "28.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "29.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "3.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "3.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "30.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "31.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "32.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "33.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "34.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "35.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "36.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "37.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "38.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "39.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "4.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "4.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "40.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "41.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "42.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "43.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "44.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "45.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "46.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "47.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "48.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "49.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "5.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "5.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "50.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "6.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "6.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "7.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "7.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "8.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "8.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "9.courier-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "9.courier-sandbox-push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "albert.gcsis-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "api-apps-lb.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "api.smoot-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "appldnld.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "appleid.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apps-mzstatic-cdn.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "captive-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "captive-cidr.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "carrierbundle.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cl2-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cl3-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cl4-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cl5-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "client-api-cdn.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cma.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "configuration.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "developerservices2.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "fr51p02sa.guzzoni-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gdcrl.godaddy.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gs-loc-new.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gs-loc.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsa.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsas.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp-ssl-dynamic.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp-ssl.ls2-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp10-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp36-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp47-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp51-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp57-ssl-background.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp57-ssl-locus.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp57-ssl-revgeo.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp64-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gsp9-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gspe19-ssl-dualstack.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gspe35-ssl.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "identity.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "identity.ess-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "idiagnostics.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "images.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "init-cdn.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "iphone-services.ls-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "iphonesubmissions.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "itunes-cdn.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "lcdn-locator-usuqo.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ld-3.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ld-5.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mesu-cdn.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mesu-cdn.origin-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mt-ingestion-service-mr22.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mt-ingestion-service-pv.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mt-ingestion-service-st11.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mu21p02sa.guzzoni-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mzuserxp.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "nc-pod1-smp-device.gcsis-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ns.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ocsp.godaddy.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "origin.guzzoni-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "origin.seed-siri-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "outsideapple.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p02-mailws.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p17-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p18-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p20-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p21-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p24-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p25-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p26-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p29-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p3-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p31-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-mailws.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p35-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p36-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p40-mailws.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p41-mailws.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p42-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p43-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p44-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p48-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p51-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p54-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-mailws.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p72-buy.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pancake.cdn-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "partiality.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pcr.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pd-nk.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pipe.cloudapp.aria.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pipe.prd.skypedata.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "play-cdn.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "play.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-eur-benelux-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-eur-central-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-namer-central-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-namer-ne-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-namer-nw-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pop-namer-se-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "ppq-new-st.oa-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "profile.ess-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "query.ess-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "radarsubmissions.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "s-mzstatic-applak.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "sandbox.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "se-applak.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "service.gc-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "silverbullet-external-ats.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "sjc-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "sp.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "sp11p03sa.guzzoni-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-005-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-005.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-006-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-007-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-008-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-009-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-010-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-011-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-012-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-013-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-014-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-015-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-016-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-017-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-017.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-021-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-021.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-022-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "store-023-failover2.blobstore-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "su-applak.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "tbsc.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "us-courier.push-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "wu-mdn.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "wu-nwk.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "wu.apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "www-cdn.icloud.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "xp.itunes-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "api.apple-cloudkit.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "configuration.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "iadsdk.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "itunes.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pancake.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "www.apple.com.edgekey.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "init-p01md.apple.com.edgesuite.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "appldnld.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "captive.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cdn-icloud-content.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mesu.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "pancake.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "streamingaudio.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "world-gen.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "zeusmedia.g.aaplimg.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "dw-cbsi.cnet-basic-performance.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "isg-apple.com.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "msg-media.valueclick.akadns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1005.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1015.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1051.b.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1089.d.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1093.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1102.g2.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1108.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1110.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1170.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1186.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1186.w7.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1205.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1212.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1213.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1236.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1271.gi3.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1272.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1293.dspd.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1320.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1383.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1414.g4.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1428.b.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1429.w10.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1441.g4.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1449.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1456.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1467.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1503.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1505.g2.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1507.b.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1531.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1585.d.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1632.w7.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1668.g2.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1696.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1711.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1738.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1755.b.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1758.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1758.w7.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1785.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1846.w3.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1856.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1889.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1907.r.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1945.b.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1945.r.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1967.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1983.dscg.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1985.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a1992.r.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a2.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a221.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a234.w5.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a239.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a248.e.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a260.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a296.g2.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a297.c.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a297.dscc.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a3.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a301.dscw62d.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a325.w10.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a337.w7.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a347.dscr.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a363.w10.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a364.w10.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a398.d.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a4.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a471.w13.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a479.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a5.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a511.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a539.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a540.w3.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a550.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a56.dscc.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a578.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a631.w23.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a653.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a683.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a692.d.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a726.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a728.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a736.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a771.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a771.dscq.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a782.da1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a873.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a948.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a948.ga.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a968.g1.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "a975.g.akamai.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "e10489.a.akamaiedge.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "e673.dsce9.akamaiedge.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "e6858.dsce9.akamaiedge.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "defra.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "fmipmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gateway.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gblon.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gbman.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p09-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-bookmarks.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckcoderouter.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckdatabase.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckdevice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmf.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p13-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p15-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-bookmarks.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p17-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p17-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p18-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p19-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p19-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p20-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p21-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p22-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-bookmarks.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmf.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-streams.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p24-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p25-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p26-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p27-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p28-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p29-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p29-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p31-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-ckdatabase.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-ckdevice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p33-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmf.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p35-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p36-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p37-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p37-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckcoderouter.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckdatabase.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckdevice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-sharedstreams.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p39-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p41-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p42-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p43-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p43-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p44-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p45-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p45-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p47-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p48-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p48-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p52-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p54-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p57-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-bookmarks.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-ckdatabase.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-ckdevice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p60-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p60-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p61-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p62-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-bookmarks.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-caldav.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckcoderouter.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckdatabase.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckdevice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-content.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-escrowproxy.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmf.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-availability.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-calendars.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-contacts.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmf.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmfmobile.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmip.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-keyvalueservice.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "quota.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "searn.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "setup.fe.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "us-east-1-dynamic.meta-weights.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "usbos.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "usnyc.ce.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gcs-eu-00002.content-storage-download.googleapis.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apple-finance.query.yahoo.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apple-mobile.query.yahooapis.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "api.apple-cloudkit.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "cvws.apple-dns.net"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "www.buglife.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "appleid.cdn-apple.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "health-assets.cdn-apple.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "updates-http.cdn-apple.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "e.crashlytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "settings.crashlytics.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "fmipmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "gateway.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p02-mailws.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p09-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-bookmarks.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckcoderouter.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckdatabase.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-ckdevice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p11-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p13-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p15-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-bookmarks.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p16-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p17-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p17-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p18-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p19-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p19-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p20-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p21-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p22-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-bookmarks.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p23-streams.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p24-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p25-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p26-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p27-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p28-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p29-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p29-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p30-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p31-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-ckdatabase.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-ckdevice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p32-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p33-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-mailws.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p34-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p35-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p36-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p37-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p37-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckcoderouter.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckdatabase.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-ckdevice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p38-sharedstreams.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p39-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p40-mailws.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p41-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p41-mailws.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p42-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p43-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p43-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p44-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p45-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p45-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p46-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p47-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p48-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p48-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p52-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p54-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p57-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-bookmarks.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-ckdatabase.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-ckdevice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-mailws.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p59-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p60-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p60-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p61-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p62-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-bookmarks.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-caldav.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckcoderouter.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckdatabase.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-ckdevice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-content.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-escrowproxy.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p65-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-availability.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-calendars.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-contacts.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmf.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmfmobile.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-fmip.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-keyvalueservice.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "p66-quota.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "setup.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "statici.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "www.icloud.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apps.itunes-nocookie.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apple.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "apple.news"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "itunes.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "mzstatic.com"
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : "weather.com"
+    }
+  ]
+}
