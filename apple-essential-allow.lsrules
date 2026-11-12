@@ -1,0 +1,68 @@
+{
+  "name": "Mac Privacy Apple essentials (allow)",
+  "description": "Narrow allow rules that keep Apple security checks and updates working: each one is scoped to one process, the hosts it needs and its ports. Based on andre4ik3/rules rulegen/rules/system.ts (CC0, commit c8b714776b87, Jan 2024), checked against this Mac's 29 Sep-12 Oct Little Snitch traffic. The OCSP rules are added here; andre4ik3 has none. High priority so a broad domain deny elsewhere cannot override them. Little Snitch may add subscribed allow rules switched off: tick them after subscribing.",
+  "rules": [
+    {
+      "action": "allow",
+      "process": "/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated",
+      "remote-hosts": ["swscan.apple.com", "swdist.apple.com", "swcdn.apple.com"],
+      "protocol": "tcp",
+      "ports": "443",
+      "priority": "high",
+      "notes": "Software Update: catalog (swscan), distribution metadata (swdist) and downloads (swcdn). Seen in traffic: 147 swscan and 216 swcdn connections denied under the old list."
+    },
+    {
+      "action": "allow",
+      "process": "/usr/libexec/mobileassetd",
+      "remote-hosts": ["gdmf.apple.com", "gdmf-ados.apple.com", "mesu.apple.com"],
+      "protocol": "tcp",
+      "ports": "443",
+      "priority": "high",
+      "notes": "Security and asset updates (XProtect, certificates, update metadata). andre4ik3 lists gdmf only; gdmf-ados and mesu added because traffic showed mobileassetd needs them (226 and 1,416 denied). xp.apple.com stays blocked by core."
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "remote-hosts": ["gs.apple.com"],
+      "protocol": "tcp",
+      "ports": "443",
+      "priority": "high",
+      "notes": "Apple silicon update personalisation (signing server). Needed to install macOS updates on this arm64 Mac. Any process, because the update brain runs from a path that changes with every update. Not seen in the 29 Sep-12 Oct traffic (no update was installed then)."
+    },
+    {
+      "action": "allow",
+      "process": "/usr/libexec/syspolicyd",
+      "remote-hosts": ["api.apple-cloudkit.com"],
+      "ports": "443",
+      "priority": "high",
+      "notes": "Gatekeeper notarisation lookups. TCP and UDP (QUIC) on 443, both seen in traffic."
+    },
+    {
+      "action": "allow",
+      "process": "/System/Library/PrivateFrameworks/ApplePushService.framework/apsd",
+      "remote-domains": ["push.apple.com"],
+      "protocol": "tcp",
+      "ports": "443,5223",
+      "priority": "high",
+      "notes": "Apple Push (courier/init.push.apple.com). Find My relies on it. 38,650 denied under the old list."
+    },
+    {
+      "action": "allow",
+      "process": "/usr/libexec/trustd",
+      "remote-hosts": ["ocsp.apple.com", "ocsp2.apple.com"],
+      "protocol": "tcp",
+      "ports": "80,443",
+      "priority": "high",
+      "notes": "Certificate revocation (OCSP). Not in andre4ik3. ocsp2 seen on 443 (39,754 denied under the old list); port 80 kept for plain-HTTP OCSP responders. ocsp.apple.com not seen in traffic."
+    },
+    {
+      "action": "allow",
+      "process": "/usr/libexec/ValidUpdater",
+      "remote-hosts": ["valid.apple.com"],
+      "protocol": "tcp",
+      "ports": "443",
+      "priority": "high",
+      "notes": "Certificate validity data. Traffic shows ValidUpdater, not trustd, fetches valid.apple.com, so the rule is scoped to it."
+    }
+  ]
+}

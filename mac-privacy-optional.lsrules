@@ -1,0 +1,187 @@
+{
+  "name": "Mac Privacy (optional)",
+  "description": "Each rule stops a real data leak but costs a feature. Subscribe, then untick the rules whose feature you want back.",
+  "rules": [
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "smoot.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Spotlight/Safari/Siri search suggestions: sends what you type + rough location. COST: no web results in Spotlight/Safari suggestions"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "gs-loc.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Wi-Fi location lookups (sends nearby Wi-Fi access points). COST: Location Services stop working"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "ls.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Maps tiles, geocoding, reverse geocoding. COST: Maps, Weather location, automatic time zone"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "gateway-oblivious.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Apple Intelligence Private Cloud Compute. COST: server-side Apple Intelligence"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "ab.chatgpt.com"
+      ],
+      "priority": "high",
+      "notes": "ChatGPT/Codex Statsig feature flags + event logging (~21 MB/week on 29 Sep, ~44 MB/week by 12 Oct). COST: staged/experimental features may disappear"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "intercom.io",
+        "intercomcdn.com"
+      ],
+      "priority": "high",
+      "notes": "Claude app in-app support chat widget. COST: Help chat"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "adobedc.net"
+      ],
+      "priority": "high",
+      "notes": "Adobe Experience Platform edge (analytics). Adobe lists it as required: COST unknown, untick if Adobe apps misbehave"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "aepxlg.adobe.com"
+      ],
+      "priority": "high",
+      "notes": "Adobe Experience Platform (likely analytics) from Acrobat. COST unknown"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "gcos.adobe.io"
+      ],
+      "priority": "high",
+      "notes": "Adobe Genuine Service checks. COST: none with a valid licence"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "messaging.engagement.office.com"
+      ],
+      "priority": "high",
+      "notes": "Office in-app messaging/campaigns (undocumented). COST: in-app promos"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "r.stripe.com",
+        "m.stripe.com"
+      ],
+      "priority": "high",
+      "notes": "Stripe fraud-signal beacons (r. and m.stripe.com) in Replit, the Claude app and Firefox. COST: payments may be flagged or need extra verification"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/triald_system",
+      "remote": "any",
+      "priority": "high",
+      "notes": "triald_system: Apple experiments and staged rollouts (Trial). COST: some feature rollouts and model configs arrive late or not at all"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/modelmanagerd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "modelmanagerd: Apple Intelligence model management. COST: on-device AI models won't download or update"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/ModelCatalogRuntime.framework/Versions/A/modelcatalogd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "modelcatalogd: Apple Intelligence model catalogue. COST: same as modelmanagerd"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "api.oaistatsig.com"
+      ],
+      "priority": "high",
+      "notes": "ChatGPT/Codex Statsig event logging, second endpoint next to ab.chatgpt.com (5.5 MB out in 13 days). COST: same as ab.chatgpt.com, staged/experimental features may disappear"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "a.nel.cloudflare.com"
+      ],
+      "priority": "high",
+      "notes": "Cloudflare Network Error Logging reports, mostly from Codex (10 MB out in 13 days). COST: nothing visible; site owners lose error reports"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "ecs.office.com"
+      ],
+      "priority": "high",
+      "notes": "Office experimentation and config service (ECS), from Word/Excel and the Windows VM. COST: Office feature flags and some in-app config may lag; untick if Office misbehaves"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "googletagmanager.com",
+        "connect.facebook.net"
+      ],
+      "priority": "high",
+      "notes": "Google Tag Manager and the Meta pixel loader. COST: a few sites load consent or checkout scripts through GTM, and Facebook log-in buttons stop working"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "clientstream.launchdarkly.com",
+        "events.launchdarkly.com",
+        "eppo.cloud",
+        "cdn.growthbook.io",
+        "cdn.optimizely.com"
+      ],
+      "priority": "high",
+      "notes": "Feature-flag and A/B-test SDKs (LaunchDarkly, Eppo in Perplexity, GrowthBook, Optimizely). COST: apps fall back to default features; a site may misrender"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "ipapi.co"
+      ],
+      "priority": "high",
+      "notes": "IP-geolocation lookup by web pages. COST: sites may guess the wrong country"
+    }
+  ]
+}

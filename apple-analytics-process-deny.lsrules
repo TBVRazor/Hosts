@@ -1,0 +1,34 @@
+{
+  "name": "Mac Privacy Apple analytics processes",
+  "description": "Blocks network access for Apple analytics and diagnostics daemons that the core list does not already cover. Process rules taken from j3n0v4/apple-telemetry-blocklist (rules-reference.lsrules, MIT, commit 4c5ffb7d374d), rewritten with this Mac's binary paths. Its domain blocks (icloud.com, push.apple.com, ls.apple.com, trafficmanager.net, msedge.net) and Microsoft rules are deliberately not copied. Already in core: analyticsd, ecosystemanalyticsd, wifianalyticsd, audioanalyticsd, geoanalyticsd, SubmitDiagInfo, symptomsd-diag.",
+  "rules": [
+    {
+      "action": "deny",
+      "process": "/usr/libexec/diagnosticd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "diagnosticd: diagnostic log collection. Network only: the launchd job keeps running (03 keep.txt protects it), so local logging and Console are unaffected."
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/inputanalyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "inputanalyticsd: keyboard and input analytics."
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/symptomsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "symptomsd: network symptom reporting. Local network-quality features keep working; if Wi-Fi diagnostics misbehave, untick this rule first."
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/CoreServices/osanalyticshelper",
+      "remote": "any",
+      "priority": "high",
+      "notes": "osanalyticshelper: crash and analytics report helper."
+    }
+  ]
+}

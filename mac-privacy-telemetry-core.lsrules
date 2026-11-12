@@ -1,0 +1,415 @@
+{
+  "name": "Mac Privacy Telemetry (core)",
+  "description": "Telemetry, crash upload, ads and marketing only. Process rules block Apple's telemetry daemons from every server; domain rules catch the same endpoints from any process. All rules are High Priority, so they beat the built-in macOS Services and iCloud Services allow rules.",
+  "rules": [
+    {
+      "action": "deny",
+      "process": "/usr/libexec/rtcreportingd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "rtcreportingd: FaceTime/iMessage call-quality reporting. System daemon; SIP won't let it stay disabled"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Support/cloudtelemetryd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "cloudtelemetryd: iCloud telemetry. System daemon; blocked from every server"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/CoreServices/SubmitDiagInfo",
+      "remote": "any",
+      "priority": "high",
+      "notes": "SubmitDiagInfo: Diagnostics & Usage uploader. System daemon"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/symptomsd-diag",
+      "remote": "any",
+      "priority": "high",
+      "notes": "symptomsd-diag: network diagnostics uploader (symptomsd itself stays allowed)"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "amsengagementd: promotions / engagement (also disabled in step 5)"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/ndoagent",
+      "remote": "any",
+      "priority": "high",
+      "notes": "ndoagent: AppleCare / warranty offers (also disabled in step 5)"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "analyticsd: Mac Analytics collector/uploader. System daemon; blocked from every server"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/audioanalyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "audioanalyticsd: audio usage analytics"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/EcosystemAnalytics.framework/Support/ecosystemanalyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "ecosystemanalyticsd: cross-device ecosystem analytics"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/wifianalyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "wifianalyticsd: Wi-Fi analytics"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/GeoAnalytics.framework/geoanalyticsd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "geoanalyticsd: Maps/location analytics (agent already disabled; backstop)"
+    },
+    {
+      "action": "deny",
+      "process": "/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/biomed",
+      "remote": "any",
+      "priority": "high",
+      "notes": "biomed: Biome on-device behaviour streams. Local database; needs no network"
+    },
+    {
+      "action": "deny",
+      "process": "/usr/libexec/coreduetd",
+      "remote": "any",
+      "priority": "high",
+      "notes": "coreduetd: Duet usage learning. Local; needs no network"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "pancake.apple.com"
+      ],
+      "priority": "high",
+      "notes": "rtcreportingd: FaceTime/iMessage call-quality metrics (50,917 attempts in 7 days)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "radarsubmissions.apple.com",
+        "iphonesubmissions.apple.com",
+        "idiagnostics.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Diagnostics & crash-report upload (SubmitDiagInfo)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "xp.apple.com"
+      ],
+      "priority": "high",
+      "notes": "App Store / media analytics events. If Software Update ever fails, disable this rule first"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "metrics.mzstatic.com",
+        "dzc-metrics.mzstatic.com"
+      ],
+      "priority": "high",
+      "notes": "Store metrics"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "books-analytics-events.apple.com",
+        "mt-ingestion-service-pv.itunes.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Books / Music usage metrics"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "iadsdk.apple.com"
+      ],
+      "priority": "high",
+      "notes": "Apple Ads SDK (also covers cf.iadsdk.apple.com)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "events.data.microsoft.com"
+      ],
+      "priority": "high",
+      "notes": "Microsoft OneCollector telemetry: Office, AutoUpdate and the Windows VM (mobile., v10., v20., self., browser., watson. = Windows Error Reporting)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "sstats.adobe.com",
+        "omtrdc.net"
+      ],
+      "priority": "high",
+      "notes": "Adobe Analytics collection (sstats + Omniture omtrdc.net)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "adobedtm.com",
+        "demdex.net"
+      ],
+      "priority": "high",
+      "notes": "Adobe Tags/Launch scripts + Audience Manager visitor ID"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "incoming.telemetry.mozilla.org",
+        "ingestion-edge.prod.dataservices.mozgcp.net"
+      ],
+      "priority": "high",
+      "notes": "Firefox telemetry (incl. pingsender) and Glean direct ingestion; also from Firefox in VM guests via vmnet-natd"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "ads.mozilla.org"
+      ],
+      "priority": "high",
+      "notes": "Firefox sponsored tiles/ads"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "telemetry.tradingview.com",
+        "snowplow-pixel.tradingview.com"
+      ],
+      "priority": "high",
+      "notes": "TradingView telemetry + Snowplow analytics"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "sentry.io"
+      ],
+      "priority": "high",
+      "notes": "Crash/error reporting: Claude, Codex, Replit, Numi, The Unarchiver, Adobe CC"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "datadoghq.com",
+        "browser-intake-us5-datadoghq.com"
+      ],
+      "priority": "high",
+      "notes": "Log intake: Claude Code CLI, Replit"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "appfeedback.rambo.codes"
+      ],
+      "priority": "high",
+      "notes": "AirBuddy analytics/feedback"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "api.ipregistry.co"
+      ],
+      "priority": "high",
+      "notes": "Corsair installer IP-geolocation lookup"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "telemetry.proton.me"
+      ],
+      "priority": "high",
+      "notes": "Proton telemetry"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "telemetry.insights.video.a2z.com"
+      ],
+      "priority": "high",
+      "notes": "Prime Video playback telemetry from Firefox (30 MB out in 13 days, 29 Sep-12 Oct)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "hz-telemetry-next.adobe.io"
+      ],
+      "priority": "high",
+      "notes": "Adobe Express web-app telemetry (0.9 MB in one session)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "vcsa.telemetry.broadcom.com"
+      ],
+      "priority": "high",
+      "notes": "VMware Fusion telemetry (Broadcom)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "stats.sublimetext.io"
+      ],
+      "priority": "high",
+      "notes": "Sublime Text usage statistics"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "googlesyndication.com",
+        "doubleclick.net",
+        "googleadservices.com"
+      ],
+      "priority": "high",
+      "notes": "Google ad network (AdSense, DoubleClick, conversion tracking). 12 Oct-1 Nov: ~330 connections, mostly from the Claude, Lovable and TradingView embedded browsers, which have no uBlock"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "google-analytics.com"
+      ],
+      "priority": "high",
+      "notes": "Google Analytics collection, from the Claude/Lovable embedded browsers, Docker Desktop and Chrome"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "criteo.com",
+        "smartadserver.com",
+        "adnxs.com",
+        "adsrvr.org",
+        "pubmatic.com",
+        "amazon-adsystem.com"
+      ],
+      "priority": "high",
+      "notes": "Programmatic ad exchanges and cookie-sync (Criteo, Equativ/Smart, Xandr/AppNexus, The Trade Desk, PubMatic, Amazon), from the Claude embedded browser"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "px.ads.linkedin.com",
+        "ads-twitter.com"
+      ],
+      "priority": "high",
+      "notes": "LinkedIn Insight and X ads conversion pixels, from the Claude and Lovable embedded browsers"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "i.posthog.com",
+        "internal-c.posthog.com"
+      ],
+      "priority": "high",
+      "notes": "PostHog product analytics (us./eu. ingest + assets): bun, node, HyperFrames CLI and web apps. ~1,000 connections in 3 weeks"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "api.segment.io"
+      ],
+      "priority": "high",
+      "notes": "Segment analytics, from the Exodus wallet app"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "sessions.bugsnag.com",
+        "notify.bugsnag.com",
+        "sessions-bugsnag.docker.com"
+      ],
+      "priority": "high",
+      "notes": "Bugsnag crash/session reporting, from Docker Desktop (direct and via Docker's own sessions-bugsnag proxy)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "nr-data.net"
+      ],
+      "priority": "high",
+      "notes": "New Relic browser monitoring beacons (WebKit)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "track.hubspot.com",
+        "hs-analytics.net"
+      ],
+      "priority": "high",
+      "notes": "HubSpot visitor tracking (not mcp.hubspot.com, which is the Claude connector)"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "collector.github.com"
+      ],
+      "priority": "high",
+      "notes": "GitHub web analytics"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "telemetry.vercel.com"
+      ],
+      "priority": "high",
+      "notes": "Vercel CLI / Next.js anonymous telemetry, from node"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": [
+        "telemetry.paperclip.ing"
+      ],
+      "priority": "high",
+      "notes": "Paperclip (AI agent orchestrator) usage telemetry, from node; the paperclip.ing site itself stays reachable"
+    }
+  ]
+}
